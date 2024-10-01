@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <!-- Search-section-start -->
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" />
+        <button><img src="../images/search.png" alt="search-icon" b /></button>
+      </div>
+      <!-- Search-section-end -->
+
+      <!-- error-msg-section-start -->
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <!-- error-msg-section-End -->
+
+      <!-- weather-section-start -->
+      <div class="weather">
+        <img
+          src="../images/clear.png"
+          alt="rainy weather"
+          class="weather-icon"
+        />
+        <p class="weatherIconText"></p>
+        <h1 class="temp">21°C</h1>
+        <h2 class="city">New York</h2>
+
+        <div class="weather-details">
+          <div class="weather-details-col">
+            <img src="../images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="weather-details-col">
+            <img src="../images/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- weather-section-END -->
+    </div>
+
+    <!-- Script  -->
+    <script src="../assets/main.js"></script>
+  </body>
+</html>
